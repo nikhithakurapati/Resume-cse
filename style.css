@@ -1,0 +1,92 @@
+.main{
+border:2px solid #000;
+display:flex;
+flex-wrap:wrap;
+}
+.left{
+  flex:1;
+  background-color: #999;
+    border:2px solid #000;
+    margin: 5px;
+    padding: 5PX;
+}
+.right{
+  background-color: #888;
+  flex:3;
+    border:2px solid #000;
+      margin: 5px;
+}
+@media only screen and (min-width:1024px) and  (max-width:480px)
+  .main{
+
+  border:2px solid #000;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+   /*  justify-content:  center;*/
+ }
+  .left{
+    background-color: pink;
+    border:2px solid #000;
+      margin: 5px;
+      padding: 5PX;
+  }  /*  justify-content:  center;*/
+  .right{
+    background-color: #blue;
+      border:2px solid #000;
+        margin: 5px;
+  }
+
+}
+@media screen only and (min-width:481px)and(max-width:768px) {
+
+}
+@media only screen and (min-width:1024px) and  (max-width:480px)
+  .main{
+
+  border:2px solid #000;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+   /*  justify-content:  center;*/
+ }
+  .left{
+    background-color: pink;
+    border:2px solid #000;
+      margin: 5px;
+      padding: 5PX;
+  }  /*  justify-content:  center;*/
+  .right{
+    background-color: #blue;
+      border:2px solid #000;
+        margin: 5px;
+  }
+
+}
+@media screen only and (min-width:481px)and(max-width:768px) {
+
+}
+.main{
+
+border:2px solid #000;
+display:flex;
+flex-wrap:wrap;
+flex-direction:column;
+ /*  justify-content:  center;*/
+}
+.left{
+  background-color: pink;
+  border:2px solid #000;
+    margin: 5px;
+    padding: 5PX;
+}  /*  justify-content:  center;*/
+.right{
+  background-color: #blue;
+    border:2px solid #000;
+      margin: 5px;
+}
+
+}
+@media screen only and (min-width:481px)and(max-width:768px) {
+
+}
